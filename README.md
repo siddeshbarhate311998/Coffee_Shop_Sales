@@ -2,41 +2,42 @@
 ![Dashboard Preview](Coffee_shop_sales.png)
 This project focuses on analyzing and improving the performance of a coffee shop by leveraging data visualization techniques. Using transactional data from January to June 2023, it provides insights into sales trends, customer preferences, and product performance across three store locations in New York City.
 
-## Objectives
-- **Data Preparation and Profiling**:
-  - Cleaned and prepared transactional data to ensure accuracy and reliability.
-  - Added calculated fields such as revenue, day of the week, month, and hour to enable detailed analysis.
+# Key Insights
 
-- **Exploratory Data Analysis**:
-  - Utilized Excel PivotTables to uncover patterns in sales trends.
-  - Analyzed transactions by day of the week, hour of the day, product category, and store locations.
+## Average Customer Spend and Order Delivery Time
+- **Average Customer Spend**: $4.69 per person.
+- **Average Order Delivery Time**: 5.53 days.
 
-- **Dynamic Dashboard Development**:
-  - Designed an interactive dashboard using Excel, with slicers and charts for a user-friendly experience.
-  - Visualized metrics like total revenue, top-selling products, and sales distribution by time and location.
+These figures indicate strong customer engagement and significant revenue generation per order. The average delivery time seems reasonable but can be improved for time-sensitive occasions.
 
-## Key Insights
-- **Peak Sales Times**: 
-  - 45% of transactions occur between 7 AM and 11 AM, emphasizing the importance of morning service.
-- **Evening Decline**: 
-  - Transactions drop significantly after 7 PM, suggesting a need to optimize operational hours and save costs.
-- **Top-Selling Products**: 
-  - Brewed Chai Tea leads in transaction volume, while Barista Espresso generates the highest revenue.
-- **Category Dominance**: 
-  - Coffee products are the most significant contributors to overall revenue.
-- **Store Comparison**: 
-  - Hell’s Kitchen generates the highest revenue, followed by Astoria and Lower Manhattan.
+## Revenue by Occasion
+- The data reveals that **Anniversaries** and **Raksha Bandhan** generate the highest revenue among all occasions, contributing significantly to the company's sales. 
+- Other notable occasions include **Holi**, **Valentine’s Day**, and **Birthdays**, each displaying substantial revenue generation.
+- **Diwali**, despite being a major festival, shows lower revenue compared to other occasions, potentially offering an opportunity to improve targeted promotions during this period.
+
+## Revenue by Category
+- Among product categories, **Colors** (likely for Holi) contribute the highest revenue, followed by **Soft Toys** and **Raksha Bandhan-related products**.
+- Categories like **Cakes**, **Mugs**, and **Plants** have moderate performance, indicating opportunities for upselling or cross-selling strategies to increase revenue from these products.
+
+## Revenue by Hour (Order Time)
+- Orders are distributed relatively evenly throughout the day, with noticeable peaks around **12 PM and 6 PM**, likely reflecting typical meal or break times when customers might place orders.
+- Understanding these peaks can help in optimizing marketing campaigns and ensuring the availability of delivery services during these hours.
+
+## Top 5 Products by Revenue
+- The top 5 products include items like **Deserunt Box**, **Dolores Gift**, and **Magman Set**, with each product generating revenue close to ₹1,20,000 to ₹1,40,000.
+- Focusing on promoting these best-selling items can drive further sales, especially during peak occasions.
+
+## Top 10 Cities by Orders
+- The city-wise analysis shows that **Dhanbad** and **Imphal** contribute the highest number of orders, followed by **Guntakal** and **Kavali**.
+- This regional demand can guide localized marketing campaigns and logistics planning to ensure timely deliveries and customer satisfaction in these high-performing areas.
+
+## Revenue by Month
+- The months of **February and March** show the highest revenue, correlating with key events such as **Valentine’s Day** and **Holi**.
+- Revenue tends to drop significantly in **April** and rises again towards **August and December**, which may be attributed to **Raksha Bandhan** and year-end festivities.
+- This cyclic pattern can help optimize inventory and marketing efforts around key months.
 
 ## Recommendations
 - Enhance service quality during peak morning hours to maximize sales and customer satisfaction.
 - Reduce late-evening operations to save costs on electricity, rent, and labor.
 - Focus marketing strategies on coffee products to capitalize on their revenue-driving potential.
 
-## Tools and Techniques
-- **Data Cleaning and Profiling**: Ensured reliable data for analysis.
-- **PivotTables and PivotCharts**: Performed detailed exploratory data analysis.
-- **Dynamic Dashboard**: Created an interactive and visually appealing dashboard for actionable insights.
-
----
-
-This project demonstrates how actionable insights from data can improve operations and profitability for coffee shops.
