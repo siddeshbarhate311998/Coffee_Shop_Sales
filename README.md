@@ -1,43 +1,51 @@
 # Coffee Shop Sales Dashboard Project
 ![Dashboard Preview](Coffee_shop_sales.png)
+
+## Project Overview
 This project focuses on analyzing and improving the performance of a coffee shop by leveraging data visualization techniques. Using transactional data from January to June 2023, it provides insights into sales trends, customer preferences, and product performance across three store locations in New York City.
 
-# Key Insights
+---
 
-## Average Customer Spend and Order Delivery Time
-- **Average Customer Spend**: $4.69 per person.
-- **Average Order Delivery Time**: 5.53 days.
+## Key Insights
 
-These figures indicate strong customer engagement and significant revenue generation per order. The average delivery time seems reasonable but can be improved for time-sensitive occasions.
+1. **Overall Sales and Customer Metrics**
+   - **Total Sales:** $6,98,812.33
+   - **Total Footfall:** 1,49,116
+   - **Average Bill per Person:** $4.69
+   - **Average Order per Person:** 1.44
 
-## Revenue by Occasion
-- The data reveals that **Anniversaries** and **Raksha Bandhan** generate the highest revenue among all occasions, contributing significantly to the company's sales. 
-- Other notable occasions include **Holi**, **Valentine’s Day**, and **Birthdays**, each displaying substantial revenue generation.
-- **Diwali**, despite being a major festival, shows lower revenue compared to other occasions, potentially offering an opportunity to improve targeted promotions during this period.
+2. **Quantity Ordered Based on Hours**
+   - Peak hours are observed between **8 AM and 11 AM**, aligning with morning coffee demand.
+   - Sales significantly decline post **1 PM**, suggesting reduced customer engagement during afternoon and evening hours.
 
-## Revenue by Category
-- Among product categories, **Colors** (likely for Holi) contribute the highest revenue, followed by **Soft Toys** and **Raksha Bandhan-related products**.
-- Categories like **Cakes**, **Mugs**, and **Plants** have moderate performance, indicating opportunities for upselling or cross-selling strategies to increase revenue from these products.
+3. **Category Sales Distribution**
+   - **Tea** accounts for the highest share (39%) of sales, followed by **Coffee** (28%) and **Bakery items** (12%).
+   - Categories like **Packaged Chocolate**, **Loose Tea**, and **Flavours** contribute minimally (around 1% each), highlighting potential areas for improvement.
 
-## Revenue by Hour (Order Time)
-- Orders are distributed relatively evenly throughout the day, with noticeable peaks around **12 PM and 6 PM**, likely reflecting typical meal or break times when customers might place orders.
-- Understanding these peaks can help in optimizing marketing campaigns and ensuring the availability of delivery services during these hours.
+4. **Size Distribution**
+   - Orders are evenly split across **Large (31%)**, **Regular (30%)**, and **Small (30%)** sizes.
+   - **Not Defined** sizes account for 9%, suggesting potential issues with data categorization.
 
-## Top 5 Products by Revenue
-- The top 5 products include items like **Deserunt Box**, **Dolores Gift**, and **Magman Set**, with each product generating revenue close to ₹1,20,000 to ₹1,40,000.
-- Focusing on promoting these best-selling items can drive further sales, especially during peak occasions.
+5. **Footfall and Sales Across Locations**
+   - **Hell's Kitchen** records the highest sales ($2,36,511.17) and footfall (50,735), followed by **Astoria** and **Lower Manhattan**.
+   - The stores have a comparable performance, indicating balanced demand across locations.
 
-## Top 10 Cities by Orders
-- The city-wise analysis shows that **Dhanbad** and **Imphal** contribute the highest number of orders, followed by **Guntakal** and **Kavali**.
-- This regional demand can guide localized marketing campaigns and logistics planning to ensure timely deliveries and customer satisfaction in these high-performing areas.
+6. **Top 5 Products by Sales**
+   - **Barista Espresso** leads in sales ($91,406.20), followed by **Brewed Chai Tea** ($77,081.95), and **Hot Chocolate** ($72,416.00).
+   - Focused promotion of these top-performing products can further enhance revenue.
 
-## Revenue by Month
-- The months of **February and March** show the highest revenue, correlating with key events such as **Valentine’s Day** and **Holi**.
-- Revenue tends to drop significantly in **April** and rises again towards **August and December**, which may be attributed to **Raksha Bandhan** and year-end festivities.
-- This cyclic pattern can help optimize inventory and marketing efforts around key months.
+7. **Weekday Performance**
+   - Sales remain consistent across weekdays, with minor variations. Sundays show slightly lower sales, potentially indicating lower footfall.
+
 
 ## Recommendations
-- Enhance service quality during peak morning hours to maximize sales and customer satisfaction.
-- Reduce late-evening operations to save costs on electricity, rent, and labor.
-- Focus marketing strategies on coffee products to capitalize on their revenue-driving potential.
+
+- Enhance service quality during peak hours (8 AM to 11 AM).
+- Reduce late-evening operations to save costs.
+- Promote low-contributing categories like Packaged Chocolate and Loose Tea.
+- Streamline data categorization for undefined size orders.
+- Leverage regional demand in Hell's Kitchen with targeted marketing.
+- Focus on high-performing products like Barista Espresso and Hot Chocolate.
+- Optimize weekday campaigns and boost Sunday performance.
+
 
